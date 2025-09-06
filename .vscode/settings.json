@@ -31,5 +31,6 @@
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
   "liveServer.settings.port": 5503,
-  "editor.detectIndentation": true
+  "editor.detectIndentation": true,
+  "editor.tabSize": 4
 }
