@@ -1,3 +1,8 @@
+:root{
+    --heading-font: Arial;
+    
+}
+
 main{
     max-width: 840px
 }
