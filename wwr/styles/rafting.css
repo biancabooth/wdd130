@@ -25,7 +25,7 @@ header, main, footer{
 }
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 nav, p, section, article{
     margin: 16px;
@@ -51,7 +51,7 @@ h1{
     text-align: center;
     opacity: 0.8;
     background-color:var(--accent1-color);
-    color: yellow;  
+    color: var(--accent2-color);  
     
 }
 .hero article img{
@@ -71,4 +71,10 @@ article p{
  header img{
     width:150px;
 
+ }
+ h2{
+    text-align: center;
+    background-color: var(--accent1-color);
+    width:100%;
+    padding: 16px;
  }
