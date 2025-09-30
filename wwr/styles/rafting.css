@@ -7,13 +7,29 @@
     --body-font:Arial,Helvetica,sans-serif;
 }
 header{
-    background-color: white;
+  
+    background-color:#abcbca;
     color: var(--accent2-color);
+    align-items: center;
+    max-width: 1000px;
+    max-height: 500px;
+    position: relative;
+
+    
+}
+.logo{
+    position:relative;
+
 }
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+nav{
+    display: grid;
+    grid-column:span;
+    
 }
 body{
     font-family: var(--body-font);
@@ -30,6 +46,8 @@ h1, h2{
 nav, p, section, article{
     margin: 16px;
     padding:8px;
+    
+
 }
 .socialmedia a {
     text-decoration: none;
@@ -37,6 +55,7 @@ nav, p, section, article{
 }
 .hero{
     position: relative;
+    
 }
 .hero img{
     display:block;
@@ -62,7 +81,7 @@ h1{
 }
 
 article p{
-    position:absolute;
+    position:relative;
     bottom: 20px;
     background-color: aliceblue;
     opacity: 0.8;
