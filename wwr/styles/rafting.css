@@ -155,7 +155,7 @@ footer{
 }
 footer p{
   text-align: center;
-  font-display: flex;
+  display: flex;
   align-content: center;
 }
 
