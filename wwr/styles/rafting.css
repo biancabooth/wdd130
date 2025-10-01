@@ -61,27 +61,32 @@ nav, p, section, article{
     
 
 }
-section p {
+.two-columns{
     
     max-width:1000px;
     bottom: 150px;
-    text-align: center;
-
-    
-
-    
+    display: grid;
+    column-width: 300px;
+    column-gap: 2rem;
+   
 }
 section img{
     position: relative;
     height: 30%;
     width: 30%;
     float: left;
-    left:270px;
+    left:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
 section{
     bottom: 230px;
     position: relative;
+
+   
     
 }
 
