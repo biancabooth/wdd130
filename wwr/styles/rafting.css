@@ -31,17 +31,16 @@ header{
     
 
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color:#fff;
-    border: solid ;
-   padding:10px;
     
-   
-    
+    padding:0;
+        
 }
 .border{
-    
+    border: 2px solid var(--accent1-color);
+    padding: 20px;
 }
 
 body{
@@ -62,6 +61,30 @@ nav, p, section, article{
     
 
 }
+section p {
+    
+    max-width:1000px;
+    bottom: 150px;
+    text-align: center;
+
+    
+
+    
+}
+section img{
+    position: relative;
+    height: 30%;
+    width: 30%;
+    float: left;
+    left:270px;
+    
+}
+section{
+    bottom: 230px;
+    position: relative;
+    
+}
+
 
 .socialmedia a {
     text-decoration: none;
@@ -71,6 +94,7 @@ nav, p, section, article{
     position: relative;
     
 }
+
 .hero img{
     display:block;
     width: 100%;
