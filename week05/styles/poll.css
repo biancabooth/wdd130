@@ -47,19 +47,19 @@ fieldset{
  }
  label{
     text-align: right;
-    padding: 1rem;
+    padding-right: 1rem;
 
  }
- input, select, textarea{
-    font-size: 1.5rem;
+ input, textarea{
+    font-size: 0.5rem;
     padding: 1.1rem;
     
  }
  input[type="checkbox"] {
     width:22px;
     height: 22px;
-    text-align: center;
-    padding:50px;
+    vertical-align: bottom;
+    
  }
  button{
     margin: 1rem;
@@ -73,18 +73,27 @@ fieldset{
  button:hover{
     background-color: hsl(134, 93%, 11%);
  }
+ #browser{
+  font-size: 1.5rem;
+  padding: 3rem;
+ }
+ #feedback{
+    font-size: 1.5rem;
+    padding: 40px;;
+ }
 
  footer{
     margin: 1rem auto 0;
     width: 650px;
     text-align: center;
-    font-size: .8em;
+    font-size: 0.8em;
     color:#777;
     border-top: 1px solid #ccc;
  }
- feedback{
-    text-align: left;
+ label[for=feedback]{
+    text-align: center;
  }
+
 
  .form-item{
     display:grid;
@@ -93,11 +102,13 @@ fieldset{
 
  .column-1{
     display:grid;
-    grid-template-columns: 3fr 1fr 2fr;
-    margin:.3px 0rem;
+    grid-template-columns: 2fr 1fr;
+    margin:0.5rem 0;
+    align-items: center;
+   
  }
  .column-2{
     display:grid;
     grid-template-columns: 1fr 2fr;
-    place-items: center;
+    align-items: center;
  }
