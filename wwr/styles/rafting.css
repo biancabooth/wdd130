@@ -46,6 +46,7 @@ nav ul {
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
+    display:block;
 }
 header, main, footer{
     width: 840px;
@@ -182,6 +183,8 @@ article p{
 
 
 footer{
+    top:1100px;
+    position: absolute;
     display:flex;
     justify-content: end;
 
@@ -192,3 +195,73 @@ footer p{
   align-content: center;
 }
 
+.info{
+    position: relative;
+    padding:20px;
+    width:860px;
+    background-color: #fff;
+}
+.info h1{
+   width:800px;
+    
+    
+}
+form{
+    position:relative;
+    float: right;
+    right:0;
+    
+    
+    width: 300px;
+}
+.map{
+    position: absolute;
+}
+.employees img{
+    position:relative;
+    width:200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+   
+}
+.employees {
+    top:200px;
+    position: relative;
+    width:840px;
+    height:300px;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #130808;
+}
+.profiles{
+position:relative;
+top:150px;
+display: flex;
+justify-content: space-around;
+gap:4rem;
+
+   
+}
+.serve{
+   position: absolute; 
+   text-align: center;
+   top:770px;
+   left: 350px;   
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+input, 
+textarea{
+    width:200px;    
+}
+textarea{
+    height:75px;
+}
