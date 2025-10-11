@@ -30,8 +30,8 @@ header nav {
     display: flex;
     flex: 1 1 auto;
     align-items: center;
-    font-family: var(--primary-color);
-    text-overflow: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
     gap:1rem;
     justify-content: center;
     
