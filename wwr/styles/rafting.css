@@ -32,6 +32,9 @@ header nav {
     align-items: center;
     font-family: var(--primary-color);
     text-overflow: uppercase;
+    gap:1rem;
+    justify-content: center;
+    
 }
 header nav a {
     background-color: var(--primary-color);
@@ -39,6 +42,7 @@ header nav a {
     padding: 1rem;
     text-decoration: none;
     color: var(--accent1-color);
+    
 }
 header nav a:hover {
     background-color: var(--accent1-color);
@@ -51,7 +55,7 @@ header nav a:hover {
 
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    /* color: var(--accent1-color); */
     width: 90%;
     margin: 0 auto;
 }
@@ -61,7 +65,7 @@ header, main, footer{
 }
 h1, h2{
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    /* color: var(--accent2-color); */
 }
 p {
     margin: 16px;
@@ -80,6 +84,9 @@ p {
     grid-template-columns: 2fr 1fr 2fr;
     gap: 1rem;
   
+}
+.history h2{
+    color: var(--accent2-color);
 }
 .river{
     width: 250px;
@@ -138,6 +145,7 @@ p {
  .adventure h2{
     text-align: center;
     background-color: var(--accent1-color);
+    color: var(--accent2-color);
 
    
  }
@@ -150,6 +158,8 @@ p {
  .adventure div{
     display:flex;
     flex-flow:row;
+    position:relative;
+    top:10px;
  }
  .adventure figure{
     max-height: 200px;
@@ -170,61 +180,47 @@ p {
     padding:20px;
     width:860px;
     background-color: #fff;
+    text-align: center;
+    color:#264653;
 }
 .info h1{
-   width:800px;
-    
-    
+   width:800px;  
+}
+.info h1 h2{
+    color: #264653;
 }
 
 
-.employee{
-    padding: 0;
-    
-    width: 100%;
-    top: 200px;
-    position:relative;
-    right:15px;
-    
-    
+.employees{
+   text-align: center;
+   padding: 2rem 0;   
  }
-
- .serve{
+ .employees h2{
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+ }
+ .employees div{
+    position: relative;
+    top:20px;
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: stretch;
-  
+    flex-flow: row;
  }
+.employees figure{
+    
+    max-height: 200px;
+    margin:auto;
+}
+.employees img{
+    
+    max-height: 170px;
+}
+
  section h2{
     text-align: center;
     padding: 10px;
  }
- .serve figcaption{
-    position:absolute;
-    top: 190px;
-    text-align: center;
-    box-sizing: border-box;
-    
 
- }
- 
- .serve figure{
-    position: relative;
-   width: 160px;
-   height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
- .serve figure img{
-    width:100%;
-    height:100%;
-    display: flex;
-    object-fit: cover;
-    display: block;
-    
- }
 .radio{
     display: flex;
     flex-direction: column;
@@ -258,7 +254,7 @@ form{
 fieldset{
    border: none;
    display: grid;
-grid-template-columns: 40% 60% ;
+grid-template-columns: 30% 70% ;
    
 
 }
@@ -266,30 +262,41 @@ grid-template-columns: 40% 60% ;
 fieldset .radio{grid-column: 2/2;}
 fieldset label{
 bottom: 50px;
+width:30px;
 }
 fieldset legend{
    position: relative;
    top:50px;
+   width:10px;
+   
 
 }
 
 .radio label{
-    display: grid;
-    grid-template-columns: 6% 94%;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+    
 }
 .message{
     width: 200px;
 }
 .message textarea{
     width:250px;
+    height:80px;
 }
 .subscribe{
     width:360px;
-    padding: 1px;
+    padding: 0;
     display: grid;
-    grid-template-columns: 6% 94%;
+    grid-template-columns: 10% 90%;
     
    
+}
+.subscribe input{
+    position: relative;
+    right:85px;
 }
 .subscribe label{
     display: flex;
@@ -421,25 +428,25 @@ fieldset legend{
 
 .socialmedia nav a {
   text-align: right;
-    text-decoration: none;
-    padding: 2px;
+  text-decoration: none;
+  padding: 2px;
 }
 
 .socialmedia img {
+    text-decoration: none;
     width: 50px;}
 
     footer{
-   
-
-        display: grid;
-        grid-template-columns: auto 160px;
-        align-items: center;
-        text-align: center;
+    display: grid;
+    grid-template-columns: auto 160px;
+    align-items: center;
+    text-align: center;
     background-color: var(--accent1-color);
     color: #fff;
     padding: 1rem;
     }
     footer p{
       text-align:center;
+      left:110px;
       
     }
