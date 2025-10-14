@@ -48,6 +48,11 @@ header nav a:hover {
     background-color: var(--accent1-color);
     color: #fff;
 }
+a{text-decoration: none;}
+.contact a:hover{
+    background-color:#0d1a1e;
+    color:#fff;
+}
 .border{
     border: 2px solid var(--accent1-color);
     padding: 20px;
@@ -84,7 +89,7 @@ p {
     grid-template-columns: 2fr 1fr 2fr;
     gap: 1rem;
     position: relative;
-    top:10px;
+    top:100px;
   
 }
 .history h2{
@@ -96,17 +101,19 @@ p {
 }
 .hero {
     position: relative;
+    top:50px;
  
 }
 .hero article {
     position: absolute;
     top: 90px;
     background-color: rgba(171, 203, 202, .6);
-    color: #fff;
+    color: #1a242f;
     width: 80%;
     left: 0;
     right: 0;
     margin: 0 auto;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.7) ;
   
 }
 
@@ -115,6 +122,7 @@ p {
 
     width: 100%;
     height: auto;
+    background:rgba(0,0,0,0.4) ;
 }
 .hero h1{
     position:absolute;
@@ -150,6 +158,8 @@ p {
  .adventure{
  text-align: center;
  padding: 2rem 0;
+ position: relative;
+ top:120px;
   
     
  }
@@ -191,7 +201,9 @@ p {
 
 .employees{
    text-align: center;
-   padding: 2rem 0;   
+   padding: 2rem 0;  
+   position: relative; 
+   top:50px;
  }
  .employees h2{
     text-align: center;
@@ -302,11 +314,20 @@ fieldset legend{
     
 }
 .submit button{
+    position: relative;
     padding:5px;
     border-radius: 5%;
     background-color: navy;
     color: white;
     width: 250px;
+    top:5px;
+}
+.submit button:hover{
+    background-color:rgb(5, 5, 74);
+}
+.book a:hover{background-color: #1a313a;
+    color:#fff
+
 }
    
 .book a{
@@ -339,20 +360,25 @@ fieldset legend{
     padding: 20px;
     border: 1px solid #000;
     height: auto;
-    width:840px;
+    width:540px;
     margin: 20px;
     text-align: center;
     position: relative;
     right:20px;
+    top:100px;
  }
  .newsletter{
     border: 1px solid #000;
-    padding: 10px;
+    padding: 15px;
+    float: right;
     position: relative;
     left:0;
     margin-left:1px;
-    margin-top: 50px;
-    top:0;
+    margin-top: 20px;
+    top:100px;
+    width: 270px;
+    height:170px;
+    
  }
  .contact a{
     text-align: center;
@@ -380,19 +406,24 @@ fieldset legend{
  .contact{
     padding: 20px;
     border: 1px solid #000;
-    height: auto;
+    height: 220px;
     width:840px;
     margin: 20px;
     text-align: center;
     position: relative;
     right:20px;
+    top:70px;
+ }
+ .contact figcaption{
+    position: relative;
+    top:10px;
  }
 
 
  
  table, th, td{
     border: 1px solid #000;
-    padding: 5px;
+    padding: 15px;
  }
  table{
     right: 20px;
@@ -400,7 +431,17 @@ fieldset legend{
     margin:20px;
     border-collapse: collapse;
     position: relative;
+    top:170px;
+    width: 400px;
 
+ }
+ .rapids img{
+    width:350px;
+    float: right;
+    position: relative;
+    bottom: 95px;
+    right:40px;
+    box-shadow: 2px 2px  #000;
  }
 
 
@@ -422,6 +463,8 @@ fieldset legend{
     background-color: var(--accent1-color);
     color: #fff;
     padding: 1rem;
+    position: relative;
+    top: 150px;
     }
     footer p{
       text-align:center;
